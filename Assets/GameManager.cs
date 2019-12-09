@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 	public string name;
 	public bool isPause;
 	public  bool isTimer;
+	public  bool jump;
+	
 
     void Start()
     {
