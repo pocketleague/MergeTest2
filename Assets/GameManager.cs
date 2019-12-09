@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
 	public int id;
 	public string name;
-	
+
 
     void Start()
     {
@@ -17,5 +17,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public FlyObjects(){
+    	id = 100;
+    	name = "My Object";
     }
 }
