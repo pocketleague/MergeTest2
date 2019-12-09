@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
-	public int id;
-	public string name;
-
+	
+	 bool isgameOver;
+	 bool isWin;
+    // Start is called before the first frame update
     void Start()
     {
         
@@ -16,10 +17,5 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public FlyObjects(){
-    	id = 100;
-    	name = "My Object";
     }
 }
