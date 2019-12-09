@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
 	public int id;
 	public string name;
-	
+	public bool isPause;
+	public  bool isTimer;
 
     void Start()
     {
