@@ -6,10 +6,13 @@ public class GameManager : MonoBehaviour
 {
 	public int id;
 	public string name;
+<<<<<<< HEAD
 	public bool isPause;
 	public  bool isTimer;
 	public  bool jump;
 	
+=======
+>>>>>>> 9a9d63b3cd3129179e54d41be87f41442607f8ad
 
     void Start()
     {
@@ -20,5 +23,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void FlyObjects(){
+    	id = 100;
+    	name = "My Object";
     }
 }
