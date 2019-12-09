@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public FlyObjects(){
+    public void FlyObjects(){
     	id = 100;
     	name = "My Object";
     }
